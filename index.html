@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sergio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO </a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/sergio.png" alt="foto Sergio">
+            </div>
+            <h1>Sergio Antonio Lima</h1>
+            <h2>Ingeniero de Sistemas - Experto en Diseño Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola soy Sergio Antonio Lima</span> Ingeniero de Sistemas, altamente capacitado y especializado en
+                diversos
+                campos,incluyendo diseño web, diseño gráfico, programación y ethical hacking.</p>
+            <p>Me considero un ingeniero de sistemas, con amplias habilidades técnicas y profundo conocimiento de
+                sistemas informáticos.
+                Mi pasión por el diseño web me permite crear sitios atractivos y funcionales que superan expectativas y
+                cumplen
+                estándares de calidad. Cada proyecto es una oportunidad para demostrar mi creatividad y habilidades
+                técnicas,
+                brindando experiencias en línea excepcionales.</p>
+            <p>Me considero un apasionado de la programación, con habilidades avanzadas en diversos lenguajes.
+                Desarrollo soluciones
+                tecnológicas innovadoras y eficientes, enfrentando desafíos complejos con creatividad. Cada proyecto
+                demuestra
+                mi experiencia técnica y capacidad para desarrollar software a medida según los requerimientos del
+                cliente.</p>
+            <p>Poseo un profundo conocimiento y experiencia en ethical hacking, comprometido con la seguridad
+                informática.
+                Puedo identificar vulnerabilidades y proteger sistemas contra amenazas cibernéticas. Mi enfoque ético
+                garantiza
+                aplicaciones y sitios web seguros, cumpliendo los más altos estándares de seguridad. Soy un profesional
+                altamente
+                solicitado en este campo.</p>
+            <p>En resumen, como ingeniero de sistemas especializado en diseño web, diseño gráfico, programación y
+                ethical hacking,
+                cuento con una combinación única de habilidades y conocimientos que me destacan en la industria. Mi
+                pasión,
+                experiencia y compromiso constante con la excelencia me convierten en un recurso valioso para cualquier
+                equipo o
+                empresa que busque innovación, creatividad y seguridad en sus proyectos tecnológicos.</p>
+        </div>
+        <div class="fila">
+            <!-- DATOS PERSONALES -->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        01-11-1988
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        +591 4708649
+                    </li>
+                    <li>
+                        <strong>Celular</strong>
+                        +591 71794474
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        limasantillans@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Calle La Tapia N° 490 Sacaba, Cochabamba, Bolivia.
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>FREELANCE</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- INTERESES -->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-android"></i>
+                        <span>CELULARES</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>DEPORTES</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>AUTOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupal</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">CEPRO-CETEC</span>
+                        <span class="fecha">2007 - 2009</span>
+                        <p>Realicé estudios de arte y multimedia en el instituto CEPRO-CETEC, donde adquirí una sólida
+                            formación en diversas disciplinas creativas. Durante mi tiempo en el instituto, exploré y
+                            desarrollé habilidades en diseño gráfico, animación, ilustración y edición de video. La
+                            combinación
+                            de técnicas tradicionales y digitales me permitió crear obras visualmente impactantes y
+                            narrativas
+                            cautivadoras. Además, el ambiente colaborativo y estimulante de CEPRO-CETEC me brindó la
+                            oportunidad
+                            de colaborar con otros artistas y perfeccionar mi capacidad para comunicar ideas de manera
+                            efectiva
+                            a través de la estética visual. Estos estudios me han proporcionado una base sólida para
+                            seguir
+                            creciendo como artista y profesional en el campo del arte y los medios digitales.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas</h4>
+                        <span class="casa">Universidad de Cambridge</span>
+                        <span class="fecha">2010 - 2015</span>
+                        <p>Realicé estudios de Ingeniería de Sistemas en la prestigiosa Universidad de Cambridge, donde
+                            adquirí una formación sólida en esta disciplina. Durante mi tiempo en la universidad, me
+                            sumergí
+                            en temas como programación, bases de datos, inteligencia artificial y redes de computadoras.
+                            A
+                            través de proyectos prácticos y desafiantes, pude aplicar mis conocimientos teóricos en
+                            situaciones del mundo real. Además, el entorno académico de Cambridge me brindó la
+                            oportunidad de
+                            colaborar con expertos en la materia, ampliar mi red de contactos y desarrollar habilidades
+                            de
+                            resolución de problemas y pensamiento crítico. Estos estudios en Ingeniería de Sistemas me
+                            han
+                            preparado para enfrentar los desafíos del campo tecnológico y contribuir de manera
+                            significativa
+                            en la creación de soluciones innovadoras.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diseño Web</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Realicé estudios de Diseño Web en Udemy, una reconocida plataforma de aprendizaje en línea. A
+                            través de cursos especializados, adquirí conocimientos en HTML, CSS, JavaScript y
+                            herramientas de
+                            diseño web. La flexibilidad de los cursos me permitió aprender a mi propio ritmo y practicar
+                            con
+                            proyectos reales. Gracias a la variedad de recursos y la comunidad de estudiantes, pude
+                            ampliar
+                            mis habilidades en el diseño de interfaces atractivas y funcionales. Estos estudios en Udemy
+                            me
+                            brindaron una base sólida para incursionar en el mundo del diseño web y seguir
+                            actualizándome en
+                            las últimas tendencias y tecnologías.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Docente de Informatica y Arte Multimedia</h4>
+                        <span class="casa">CEPRO-CETEC</span>
+                        <span class="fecha">2011 - 2015</span>
+                        <p>Trabajé como docente de Informática y Arte Multimedia en el reconocido instituto CEPRO-CETEC.
+                            Durante mi tiempo en
+                            esta posición, tuve el privilegio de impartir conocimientos y compartir mi pasión por la
+                            informática y el arte digital
+                            con los estudiantes. A través de programas interactivos y proyectos prácticos, pude guiar a
+                            los alumnos en el desarrollo
+                            de habilidades en programación, diseño gráfico, animación y edición de video. Además,
+                            fomenté la creatividad y el
+                            pensamiento crítico, alentándolos a explorar nuevas ideas y técnicas. Trabajar en
+                            CEPRO-CETEC me permitió contribuir
+                            al crecimiento y desarrollo de los estudiantes en el campo de la informática y el arte
+                            multimedia, y me enorgullece
+                            haber sido parte de su viaje educativo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Director Nacional de Sistemas</h4>
+                        <span class="casa">Sesomil</span>
+                        <span class="fecha">2016 - 2021</span>
+                        <p>Me desempeñé como Director Nacional de Sistemas en Sesomil, el "Seguro Social Militar".
+                            Durante mi mandato,
+                            lideré la implementación de soluciones tecnológicas innovadoras para mejorar la eficiencia y
+                            la seguridad de los
+                            sistemas informáticos de la organización. Trabajé en estrecha colaboración con equipos
+                            multidisciplinarios para
+                            desarrollar e implementar estrategias de transformación digital, optimizando los procesos y
+                            garantizando la integridad
+                            de los datos. Además, supervisé la gestión de proyectos de infraestructura tecnológica y la
+                            implementación de políticas
+                            de ciberseguridad. Mi rol como Director Nacional de Sistemas en Sesomil me permitió
+                            contribuir al fortalecimiento de
+                            la infraestructura tecnológica y a brindar un servicio de calidad a nuestros beneficiarios.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Web Developer Y Ethical Hacking</h4>
+                        <span class="casa">SICBR-RR.SS.</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Trabajé como Web Developer y Ethical Hacker en SICBR-RR.SS., donde tuve la oportunidad de
+                            combinar mis habilidades
+                            técnicas y éticas. Como Web Developer, diseñé y desarrollé sitios web interactivos y
+                            funcionales, utilizando
+                            tecnologías como HTML, CSS y JavaScript. Además, como Ethical Hacker, llevé a cabo pruebas
+                            de seguridad y análisis de
+                            vulnerabilidades en los sistemas, asegurando que estuvieran protegidos contra posibles
+                            ataques cibernéticos. Mi
+                            enfoque se centró en garantizar la integridad y confidencialidad de la información, y
+                            colaboré estrechamente con
+                            equipos multidisciplinarios para implementar medidas de seguridad efectivas. Trabajar en
+                            SICBR-RR.SS. me permitió
+                            aplicar mi pasión por la tecnología y la ética para proteger los activos digitales de la
+                            organización.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="Blogger Desing">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="Blogger Desing">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="Blogger Desing">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="Blogger Desing">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.png" alt="Blogger Desing">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.png" alt="Blogger Desing">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número Telefónico">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="Direccion Calle La Tapia 490 Sacaba">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Calle La Tapia 490, Sacaba
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +591 71794474 - +591 4478649
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: limasantillans@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+    <!-- Script -->
+    <script src="scrip.js"></script>
+</body>
+
+</html>
